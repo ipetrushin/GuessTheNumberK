@@ -13,12 +13,14 @@
         android:id="@+id/question"
         android:textSize="30sp" />
     <Button
+        android:id="@+id/yes"
         android:textSize="30sp"
         android:text="YES"
         android:onClick="onYesNoClick"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <Button
+        android:id="@+id/no"
         android:textSize="30sp"
         android:text="No"
         android:onClick="onYesNoClick"
